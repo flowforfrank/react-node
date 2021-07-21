@@ -1,0 +1,6 @@
+# dev dependencies
+node_modules
+.parcel-cache
+
+# builds
+client/build
