@@ -2,7 +2,7 @@ import React from 'react'
 import useFetch from './useFetch'
 
 const App = () => {
-    const [data, loading] = useFetch('http://localhost:8080/api');
+    const [data, loading] = useFetch('/api');
 
     if (loading) {
         return <div>loading...</div>
